@@ -52,7 +52,7 @@ SBC_MotoDriver3_Lib.enabled(True)
 ## On
 The `on(...)` function allows to switch on a single channel specified by the user with maximum value.
 ```python
-# The function "on" takes 2 parameters.
+# The function "on" takes 1 parameter.
 # on(pin)
 # The parameter pin allows to define which pin will be switched on at max value
 # default call of function with 0
@@ -62,7 +62,7 @@ SBC_MotoDriver3_Lib.on(0)
 ## Off
 The `on(...)` function allows to switch off a single channel specified by the user.
 ```python
-# The function "off" takes 2 parameters.
+# The function "off" takes 1 parameter.
 # off(pin)
 # The parameter pin allows to define which pin will be switched off
 # default call of function with 0
